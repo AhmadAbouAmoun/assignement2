@@ -44,3 +44,17 @@ section {
     font-size: 36px;
     margin-bottom: 30px;
 }
+.download-section {
+    text-align: center;
+    background-color: beige;
+    height: 100px;
+}
+.download-section p {
+    font-size: 24px;
+    color: rgb(138, 136, 133);
+}
+
+.download-section img {
+    width: 150px;
+    height: auto;
+}

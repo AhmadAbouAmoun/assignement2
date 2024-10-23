@@ -1,18 +1,53 @@
-.parallax {
-    background-image: url("../images/park.webp");
+.parallax,
+.parallax-office {
     flex-direction: column;
-    min-height: 500px;
-
+    min-height: 400px;
+    display: flex;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
 .parallax p {
-    text-align: center;
     font-size: 36px;
-    justify-content: center;
 }
 .parallax img {
     justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+}
+.parallax {
+    background-image: url("../images/park.webp");
+}
+.parallax-office {
+    background-image: url("../images/office.jpg");
+    padding-top: 20px;
+}
+.parallax-office > p {
+    font-size: 36px;
+}
+.parallax-office > div {
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+}
+.parallax-office > div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 150px;
+    font-size: 22px;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.parallax-office img {
+    height: 75px;
 }
