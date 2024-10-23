@@ -1,10 +1,46 @@
-.credits {
+.footer {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.footer-content {
     display: flex;
-    flex-direction: row;
-    border-radius: 15px;
-    width: 100%;
-    margin-bottom: 30px;
-    text-align: center;
-    height: 400px;
-    width: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/*i used chatgpt to know this one*/
+.footer-column {
+    width: 45%;
+}
+
+.footer-column h3 {
+    font-weight: bold;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links h4 {
+    font-weight: bold;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 14px;
+}
+
+.footer-links ul li a:hover {
+    color: #fff;
+}
+
+.store-buttons img {
+    width: 120px;
+    height: auto;
 }
