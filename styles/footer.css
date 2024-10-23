@@ -19,11 +19,12 @@
 
 .footer-links {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-center;
 }
 
 .footer-links h4 {
     font-weight: bold;
+    padding: 10px;
 }
 
 .footer-links ul {
@@ -33,11 +34,14 @@
 .footer-links ul li a {
     text-decoration: none;
     color: #ddd;
+    margin: 10px;
+    font-style: initial;
     font-size: 14px;
 }
 
 .footer-links ul li a:hover {
     color: #fff;
+    text-decoration: underline;
 }
 
 .store-buttons img {
