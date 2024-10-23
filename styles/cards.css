@@ -54,6 +54,7 @@
     font-size: 24px;
     font-weight: bolder;
 }
+
 .cards {
     height: 300px;
     width: 300px;
@@ -61,4 +62,40 @@
 .cards img {
     width: 300px;
     height: 200px;
+}
+.trend {
+    text-align: center;
+}
+.trend > p {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.trend > button {
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 130px;
+    color: white;
+    font-size: 16px;
+}
+
+/*this css is for hovering over an image and making text appear i found it online but i really do not know how to use it*/
+.img__description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+
+    transition: opacity 0.2s, visibility 0.2s;
+}
+
+.container-cards img:hover .img__description {
+    visibility: visible;
+    opacity: 1;
 }
